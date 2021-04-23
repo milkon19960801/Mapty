@@ -36,7 +36,7 @@ body {
 
 a:link,
 a:visited {
-  color: var(--color--brand--1);
+  color: var(--color-brand--1);
 }
 
 .sidebar {
@@ -68,45 +68,43 @@ a:visited {
   background-color: var(--color-dark--2);
   border-radius: 5px;
   padding: 1.5rem 2.25rem;
-  margin: 1.75rem;
+  margin-bottom: 1.75rem;
   cursor: pointer;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.75rem 1.5rem;
 }
-
 .workout--running {
-  border-left: 5px solid var(--color--brand--2);
+  border-left: 5px solid var(--color-brand--2);
 }
-
 .workout--cycling {
-  border-left: 5px solid var(--color--brand--1);
+  border-left: 5px solid var(--color-brand--1);
 }
 
-.workout--title {
+.workout__title {
   font-size: 1.7rem;
   font-weight: 600;
   grid-column: 1 / -1;
 }
 
-.workout--details {
+.workout__details {
   display: flex;
   align-items: baseline;
 }
 
-.workout--icon {
+.workout__icon {
   font-size: 1.8rem;
   margin-right: 0.2rem;
   height: 0.28rem;
 }
 
-.workout--value {
+.workout__value {
   font-size: 1.5rem;
   margin-right: 0.5rem;
 }
 
-.workout--unit {
+.workout__unit {
   font-size: 1.1rem;
   color: var(--color-light--1);
   text-transform: uppercase;
@@ -185,7 +183,7 @@ a:visited {
 
 .twitter-link:hover,
 .twitter-link:active {
-  color: var (var(--color-light--2));
+  color: var(--color-light--2);
 }
 
 #map {
