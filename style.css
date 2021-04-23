@@ -60,7 +60,11 @@ a:visited {
   overflow-x: hidden;
 }
 
-.workouts {
+.workouts::-webkit-scrollbar {
+  width: 0;
+}
+
+.workout {
   background-color: var(--color-dark--2);
   border-radius: 5px;
   padding: 1.5rem 2.25rem;
